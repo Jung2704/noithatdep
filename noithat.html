@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nội Thất Hiện Đại</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body class="bg-gray-100">
+    <header class="bg-white shadow-md p-4 flex justify-between items-center">
+        <h1 class="text-2xl font-extrabold text-gray-800">Nội Thất Đẹp</h1>
+        <div class="relative w-1/3">
+            <input type="text" placeholder="Tìm kiếm..." class="w-full px-4 py-2 border rounded-md">
+            <button class="absolute right-2 top-1/2 transform -translate-y-1/2 text-gray-500">🔍</button>
+        </div>
+        <nav>
+            <ul class="flex space-x-4">
+                <li><a href="file:///C:/Users/HP/OneDrive/Documents/Cam%20vo%20thay%20ma%20xoa%20la%20dap/noithat.html" class="text-gray-600 hover:text-gray-900">Trang Chủ</a></li>
+                <li><a href="file:///C:/Users/HP/OneDrive/Documents/Cam%20vo%20thay%20ma%20xoa%20la%20dap/service.html" class="text-gray-600 hover:text-gray-900">Dịch Vụ</a></li>
+                <li><a href="file:///C:/Users/HP/OneDrive/Documents/Cam%20vo%20thay%20ma%20xoa%20la%20dap/projects.html" class="text-gray-600 hover:text-gray-900">Dự Án</a></li>
+                <li><a href="#" class="text-gray-600 hover:text-gray-900">Liên Hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="relative w-full h-96 bg-cover bg-center" style="background-image: url('https://www.lanha.vn/wp-content/uploads/2023/08/thiet-ke-noi-that-phong-khach-65.jpeg.webp');">
+        <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-white">
+            <h2 class="text-4xl font-bold">Sofa - Phòng Khách</h2>
+            <p class="text-lg mt-2">Mẫu thiết kế nội thất 2025</p>
+        </div>
+    </section>
+
+    <section class="container mx-auto my-10 p-6 bg-white shadow-lg rounded-lg">
+        <h2 class="text-3xl font-semibold text-center text-gray-800 mb-6">Danh Mục Sản Phẩm</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div class="bg-gray-200 p-4 rounded-lg shadow-md fade-in">
+                <img src="https://noithatmanhhe.vn/media/25493/2-he-tu-quan-ao-am-tuong.jpg" class="w-full rounded-md">
+                <h3 class="text-xl font-bold mt-4">Phòng Ngủ</h3>
+            </div>
+            <div class="bg-gray-200 p-4 rounded-lg shadow-md fade-in">
+                <img src="https://lh4.googleusercontent.com/Z6wz9tUcG0_NuXfEDGEnGSd8VjfLIOgUtR10HOM25dRbVCCjHA3t58gp_EGoEVUmyTx_tke5TCsaIR2wUJ38BwyjoRZHx8sGLFy_Ehb9vXDGX1nnie5s2XR4QtneOGdhrip33SmK" class="w-full rounded-md">
+                <h3 class="text-xl font-bold mt-4">Nhà Bếp</h3>
+            </div>
+            <div class="bg-gray-200 p-4 rounded-lg shadow-md fade-in">
+                <img src="https://www.lanha.vn/wp-content/uploads/2023/08/thiet-ke-noi-that-phong-khach-65.jpeg.webp" class="w-full rounded-md">
+                <h3 class="text-xl font-bold mt-4">Phòng Khách</h3>
+            </div>
+            <div class="bg-gray-200 p-4 rounded-lg shadow-md fade-in">
+                <img src="https://noithatmanhhe.vn/media/25493/2-he-tu-quan-ao-am-tuong.jpg" class="w-full rounded-md">
+                <h3 class="text-xl font-bold mt-4">Văn Phòng</h3>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white text-center p-4 mt-10">
+        <p>&copy; 2025 Nội Thất Đẹp. Tất cả quyền được bảo lưu.</p>
+    </footer>
+
+    <script>
+        gsap.from(".fade-in", { opacity: 0, duration: 1, y: 50, stagger: 0.3 });
+    </script>
+</body>
+</html>
+
